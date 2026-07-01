@@ -1,0 +1,26 @@
+const titulo = document.getElementById("titulo");
+const data = document.getElementById("data");
+const texto1 = document.getElementById("texto1");
+const texto2 = document.getElementById("texto2");
+const texto3 = document.getElementById("texto3");
+const destaque = document.getElementById("destaque");
+const botao = document.getElementById("btn");
+
+titulo.innerHTML = "Brasil vence o Japão por 2 a 1 e avança na Copa do Mundo";
+
+data.innerHTML = "01 de julho de 2026";
+
+texto1.innerHTML =
+"Em uma partida emocionante válida pelas oitavas de final da Copa do Mundo, a Seleção Brasileira derrotou o Japão por 2 a 1 e garantiu vaga na próxima fase da competição. O confronto foi marcado por muita intensidade, velocidade e grandes oportunidades para ambas as equipes.";
+
+texto2.innerHTML =
+"O Brasil abriu o placar ainda no primeiro tempo e ampliou na etapa final. A seleção japonesa reagiu com um gol que colocou pressão nos minutos decisivos, mas a defesa brasileira conseguiu segurar o resultado até o apito final.";
+
+texto3.innerHTML =
+"Com a classificação, o Brasil segue firme na busca pelo hexacampeonato. A torcida comemorou o desempenho da equipe e já volta suas atenções para o próximo desafio, que promete ser ainda mais disputado.";
+
+botao.addEventListener("click", function(){
+
+    destaque.innerHTML =
+    "⚽ Destaque: Brasil classificado para as quartas de final da Copa do Mundo!";
+});
